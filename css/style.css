@@ -1,4 +1,60 @@
 /*
 font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif;
+
+#291f1a  grey font
+
+#1ac056  green font
+
+#f9fcfe light green//section background
+
+#213b50 dark blue// contact section background 
 */
+
+/*GENREAL STYLES START*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.green{
+    color: #1ac056;
+}
+
+/*GENREAL STYLES END*/
+
+/*Navigation START*/
+nav>ul>li{
+    margin: 10px 15px;
+}
+
+nav>ul>li>a.nav-link{
+    color: #fff;
+}
+nav>ul>li>a.nav-link:hover{
+    color: #1ac056;
+}
+/*Navigation END*/
+
+/*HEADER START*/
+
+header#main-header{
+    height: 100vh;
+    background-image: url('../img/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header#main-header h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*HEADER END*/
