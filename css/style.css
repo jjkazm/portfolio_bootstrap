@@ -12,32 +12,37 @@ font-family: 'Lato', sans-serif;
 */
 
 /*GENREAL STYLES START*/
-body{
+
+body {
     font-family: 'Lato', sans-serif;
+    color: #291f1a;
 }
 
-.green{
+.green {
     color: #1ac056;
 }
 
 /*GENREAL STYLES END*/
 
 /*Navigation START*/
-nav>ul>li{
+
+nav > ul > li {
     margin: 10px 15px;
 }
 
-nav>ul>li>a.nav-link{
+nav > ul > li > a.nav-link {
     color: #fff;
 }
-nav>ul>li>a.nav-link:hover{
+
+nav > ul > li > a.nav-link:hover {
     color: #1ac056;
 }
+
 /*Navigation END*/
 
 /*HEADER START*/
 
-header#main-header{
+header#main-header {
     height: 100vh;
     background-image: url('../img/header-background.jpg');
     background-size: cover;
@@ -46,15 +51,60 @@ header#main-header{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
-header#main-header h1{
+header#main-header > div {
+    text-align: center;
+}
+
+header#main-header h1 {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
 }
 
+header#main-header h3 {
+    color: #fff;
+}
 
-
+#surname {
+    font-family: 'Roboto', sans-serif;
+    color: #1ac056;
+}
 
 /*HEADER END*/
+
+/*O mnie START*/
+
+section#mnie {
+    height: 90vh;
+    background-color: #f9fcfe;
+    border-bottom: solid 3px;
+    border-bottom-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+section#mnie h3{
+    padding: 20px;
+}
+section#mnie figure {
+    height: 100%;
+    width: 85%;
+}
+
+section#mnie div#me {
+    background-image: url('../img/jan-nowak.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    border: solid white 10px;
+    border-radius: 10%;
+}
+
+
+
+
+/*O mnie END*/
